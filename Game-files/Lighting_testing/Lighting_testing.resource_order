@@ -117,7 +117,6 @@
     {"name":"obj_pause_menu","order":3,"path":"objects/obj_pause_menu/obj_pause_menu.yy",},
     {"name":"DialogueData","order":6,"path":"scripts/DialogueData/DialogueData.yy",},
     {"name":"oTextbox","order":5,"path":"objects/oTextbox/oTextbox.yy",},
-    {"name":"spr_player_1","order":1,"path":"sprites/spr_player_1/spr_player_1.yy",},
     {"name":"light_draw_shadow_map","order":1,"path":"scripts/light_draw_shadow_map/light_draw_shadow_map.yy",},
     {"name":"spr_lut_light_intensity_line","order":1,"path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},
     {"name":"spr_light_renderer","order":6,"path":"sprites/spr_light_renderer/spr_light_renderer.yy",},
