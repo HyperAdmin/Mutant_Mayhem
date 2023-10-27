@@ -1,4 +1,14 @@
 if !global.paused {
+	if keyboard_check(ord("F")) 
+	{
+		move_xspeed = 1.5
+		move_yspeed = 1.5
+	}
+	else
+	{
+		move_xspeed = 1
+		move_yspeed = 1
+	}
 	if !keyboard_check(vk_space) 
 	{
 		if keyboard_check(ord("A")) and !instance_place(x-move_xspeed, y, obj_wall) and !instance_place(x-move_xspeed, y, obj_crate){
