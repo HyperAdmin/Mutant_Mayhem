@@ -3,13 +3,13 @@ if !global.paused {
 	{
 		if keyboard_check(ord("A")) and !instance_place(x-move_xspeed, y, obj_wall) and !instance_place(x-move_xspeed, y, obj_crate){
 			x += -move_xspeed
-			image_xscale = -.5
+			image_angle = 180
 			init2(180)
 			// left animation || image_xscale = -1 right animation
 		}
 		if keyboard_check(ord("D"))  and !instance_place(x+move_xspeed, y, obj_wall) and !instance_place(x+move_xspeed, y, obj_crate) {
 			x += move_xspeed
-			image_xscale = .5
+			image_angle = 0
 			init2(0)
 			// right animation
 		}
@@ -17,11 +17,13 @@ if !global.paused {
 		if keyboard_check(ord("W")) and !instance_place(x, y-move_yspeed, obj_wall) and !instance_place(x, y-move_yspeed, obj_crate){
 			y += -move_yspeed	
 			init2(90)
+			image_angle = 90
 			// up animation
 		}
 		if keyboard_check(ord("S")) and !instance_place(x, y+move_yspeed, obj_wall) and !instance_place(x, y+move_yspeed, obj_crate) {
 			y += move_yspeed	
 			init2(-90)
+			image_angle = -90
 			// down animation
 		}
 	}
