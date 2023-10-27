@@ -35,6 +35,7 @@
     {"name":"Characters","order":11,"path":"folders/Sprites/Characters.yy",},
     {"name":"doors","order":5,"path":"folders/Sprites/doors.yy",},
     {"name":"enviroment","order":6,"path":"folders/Sprites/enviroment.yy",},
+    {"name":"Imported_Art","order":13,"path":"folders/Sprites/Imported_Art.yy",},
     {"name":"items","order":7,"path":"folders/Sprites/items.yy",},
     {"name":"Lighting","order":1,"path":"folders/Sprites/Lighting.yy",},
     {"name":"LUT","order":1,"path":"folders/Sprites/Lighting/LUT.yy",},
@@ -43,7 +44,6 @@
     {"name":"Text","order":10,"path":"folders/Sprites/Text.yy",},
     {"name":"Textbox","order":9,"path":"folders/Sprites/Textbox.yy",},
     {"name":"Tile Sets","order":9,"path":"folders/Tile Sets.yy",},
-    {"name":"Imported_Art","order":13,"path":"folders/Sprites/Imported_Art.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_scanning","order":1,"path":"objects/obj_enemy_scanning/obj_enemy_scanning.yy",},
@@ -88,6 +88,7 @@
     {"name":"get_next_pot","order":1,"path":"scripts/get_next_pot/get_next_pot.yy",},
     {"name":"oBoxParent","order":1,"path":"objects/oBoxParent/oBoxParent.yy",},
     {"name":"obj_spot_light_rotate_mouse","order":9,"path":"objects/obj_spot_light_rotate_mouse/obj_spot_light_rotate_mouse.yy",},
+    {"name":"Spr_Wolf","order":14,"path":"sprites/Spr_Wolf/Spr_Wolf.yy",},
     {"name":"light_static_set_array","order":1,"path":"scripts/light_static_set_array/light_static_set_array.yy",},
     {"name":"lighting_set_dirty","order":8,"path":"scripts/lighting_set_dirty/lighting_set_dirty.yy",},
     {"name":"draw_shadow_map","order":5,"path":"scripts/draw_shadow_map/draw_shadow_map.yy",},

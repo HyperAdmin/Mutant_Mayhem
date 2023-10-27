@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "ImportedTileSet",
   "autoTileSets": [
-    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":true,"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":false,"tiles":[
         15,
         18,
         17,
@@ -53,24 +53,6 @@
         43,
       ],},
     {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_2","closed_edge":false,"tiles":[
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-      ],},
-    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_3","closed_edge":false,"tiles":[
         0,
         0,
         0,
