@@ -221,6 +221,7 @@
     {"id":{"name":"obj_light_mouse","path":"objects/obj_light_mouse/obj_light_mouse.yy",},},
     {"id":{"name":"light_acknowledge_shadow_caster","path":"scripts/light_acknowledge_shadow_caster/light_acknowledge_shadow_caster.yy",},},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},},
+    {"id":{"name":"Spr_spider","path":"sprites/Spr_spider/Spr_spider.yy",},},
     {"id":{"name":"light_maintain_shadow_map","path":"scripts/light_maintain_shadow_map/light_maintain_shadow_map.yy",},},
     {"id":{"name":"light_create_directional","path":"scripts/light_create_directional/light_create_directional.yy",},},
     {"id":{"name":"obj_view_controller","path":"objects/obj_view_controller/obj_view_controller.yy",},},

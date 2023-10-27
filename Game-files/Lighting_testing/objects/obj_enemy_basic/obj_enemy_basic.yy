@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy",
-    "path": "sprites/spr_enemy/spr_enemy.yy",
+    "name": "Spr_spider",
+    "path": "sprites/Spr_spider/Spr_spider.yy",
   },
   "spriteMaskId": null,
   "visible": true,

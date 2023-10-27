@@ -169,6 +169,7 @@
     {"name":"obj_enemy_basic","order":5,"path":"objects/obj_enemy_basic/obj_enemy_basic.yy",},
     {"name":"obj_light_mouse","order":4,"path":"objects/obj_light_mouse/obj_light_mouse.yy",},
     {"name":"lighting_update_camera","order":3,"path":"scripts/lighting_update_camera/lighting_update_camera.yy",},
+    {"name":"Spr_spider","order":15,"path":"sprites/Spr_spider/Spr_spider.yy",},
     {"name":"light_maintain_shadow_map","order":2,"path":"scripts/light_maintain_shadow_map/light_maintain_shadow_map.yy",},
     {"name":"light_create_directional","order":7,"path":"scripts/light_create_directional/light_create_directional.yy",},
     {"name":"obj_view_controller","order":11,"path":"objects/obj_view_controller/obj_view_controller.yy",},
