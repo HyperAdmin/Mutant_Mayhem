@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Spr_spider",
-    "path": "sprites/Spr_spider/Spr_spider.yy",
+    "name": "spr_spider_boss",
+    "path": "sprites/spr_spider_boss/spr_spider_boss.yy",
   },
   "spriteMaskId": null,
   "visible": true,

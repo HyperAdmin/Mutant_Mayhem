@@ -30,6 +30,7 @@ global.item_list =
 				{
 				if distance_to_object(obj_player) < 20 
 					{
+					audio_play_sound(snd_click, 5, false)
 					instance_destroy();
 					_used = true;
 					}	

@@ -1,5 +1,5 @@
 draw_self();
-
+/*
 if(is_debug)
 {
 	var add_angle = 5; // 5 degrees

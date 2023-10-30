@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_Wolf",
-    "path": "sprites/Spr_Wolf/Spr_Wolf.yy",
+    "name": "spr_werewolf",
+    "path": "sprites/spr_werewolf/spr_werewolf.yy",
   },
   "spriteMaskId": null,
   "visible": true,
