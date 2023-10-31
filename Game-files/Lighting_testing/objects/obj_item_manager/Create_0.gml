@@ -43,6 +43,35 @@ global.item_list =
 			}
 		}
 		),
+	key_blue :  new create_item(
+		"Blue Key", 
+		"Its a key to open a door (Single Use)", 
+		spr_key_blue,
+		function()
+		{
+			
+			var _used = false;
+			
+			if instance_exists(oLock_blue)
+			{
+				
+			with(oLock_blue)
+				{
+				if distance_to_object(obj_player) < 20 
+					{
+					audio_play_sound(snd_click, 5, false)
+					instance_destroy();
+					_used = true;
+					}	
+				}
+			}
+			// get rid of item
+			if _used == true
+			{
+			array_delete(inv, selected_item, 1);
+			}
+		}
+		),
 		
 	fire_ex : new create_item(
 		"Fire Extinguisher",

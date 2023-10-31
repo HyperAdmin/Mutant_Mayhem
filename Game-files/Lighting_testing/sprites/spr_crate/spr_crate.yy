@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "enviroment",
-    "path": "folders/Sprites/enviroment.yy",
+    "path": "folders/Sprites/enviroment/enviroment.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

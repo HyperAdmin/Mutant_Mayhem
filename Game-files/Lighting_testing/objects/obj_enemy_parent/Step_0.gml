@@ -5,5 +5,17 @@ if !global.paused
 	{
 		visible = false	
 	}
+	else
+	{
+		visible = true	
+	}
+	/*if x < obj_player.x
+	{
+		monster_sprite.image_angle = 180
+	}
+	if x > obj_player.x
+	{
+		monster_sprite.image_angle = 0
+	} */
 }
 polygon = polygon_from_instance(id)
