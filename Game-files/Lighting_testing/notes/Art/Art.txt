@@ -1,5 +1,29 @@
-spr_background
-- obtained using AI art generation
+	-spr_background
+obtained using AI art generation
 https://creator.nightcafe.studio/studio?open=creation&panelContext=%28jobId%3AycaqsOoNm0vOpHIro369%29
 this is the link to the site in which we used
 The prompt was "apocolyptic city with desolate environment with cars and buildings with viewpoint from the road looking through the city"
+spr_winning
+	-also used AI art generation and used prompt similar to 
+winning apolcaplyse and leaving a city office building with main character leaving off into the sunset
+	-Other spr that were created from AI was background for the death seq
+human spider hybrid with more human less spider
+(This was needed as they just either gave all human or all spider and did not merge them)
+	-sounds I do not have the licensing information but I'm pretty sure they were create by Bryan the other member of my group I will have to double check tho from what
+I was told it's all original work
+	-The coding was worked in from other projects like the simple platformer to look at the irandom code and path systems
+	-I used some of the gamemaker tutorials to either enhance the code I already created or to learn how to implement something like the pause GUI and start page of the
+game with working buttons working on a sequence GUI layer as I did not know how to mesh these things
+
+For the office sprites this message was written in the file Titled "LICENSES"
+MODERN OFFICE LICENSE
+-
+YOU CAN:
+-Edit and use the asset in any commercial  or non commercial project 
+-Use the asset in any commercial  or non commercial project
+-
+YOU CAN'T:
+- Resell or distribute the asset to others
+- Edit and resell the asset to others
+-
+- Credits are  appreciated 
