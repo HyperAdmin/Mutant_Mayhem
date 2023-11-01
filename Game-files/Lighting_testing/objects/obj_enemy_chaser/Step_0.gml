@@ -18,13 +18,21 @@ if !global.paused
 		else if collision_line(x, y, obj_player.x, obj_player.y, obj_crate, 1, 0)
 		{
 			visible = false
-			mp_potential_step(obj_player.x, obj_player.y, en_speed + 2, 1);
+			mp_potential_step(obj_player.x, obj_player.y, en_speed + 2, false);
 		}
 		else
 		{
 			visible = true	
 			// movement here
-			mp_potential_step(obj_player.x, obj_player.y, en_speed, 1);
+			mp_potential_step(obj_player.x, obj_player.y, en_speed, false);
+			if obj_player.x < x
+			{
+				image_xscale = -.2
+			}
+			else
+			{
+				image_xscale = .2	
+			}
 		}
 	}
 	

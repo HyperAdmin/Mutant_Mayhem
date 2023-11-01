@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oLock",
+  "name": "obj_item_key_green",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ShadingObjects",
-    "path": "folders/Objects/ShadingObjects.yy",
+    "name": "Item Inventory",
+    "path": "folders/Objects/Item Inventory.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lock",
-    "path": "sprites/spr_lock/spr_lock.yy",
+    "name": "spr_key_green",
+    "path": "sprites/spr_key_green/spr_key_green.yy",
   },
   "spriteMaskId": null,
   "visible": true,

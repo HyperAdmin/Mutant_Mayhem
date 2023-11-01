@@ -1,1 +1,5 @@
-// instance_destroy(obj_player)
+//instance_destroy(obj_player)
+create_boss_screen()
+audio_stop_sound(snd_main_music)
+audio_play_sound(snd_slenderman, 11, true)
+audio_play_sound(snd_static, 10, true)

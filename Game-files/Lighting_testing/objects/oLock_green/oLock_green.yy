@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oLock",
+  "name": "oLock_green",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lock",
-    "path": "sprites/spr_lock/spr_lock.yy",
+    "name": "spr_lock_green",
+    "path": "sprites/spr_lock_green/spr_lock_green.yy",
   },
   "spriteMaskId": null,
   "visible": true,

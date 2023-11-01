@@ -33,7 +33,7 @@ if !global.paused {
 			if stamina <= 100
 			{
 				stamina += .5;
-				show_debug_message("Recharging")
+				//show_debug_message("Recharging")
 			}
 			else
 			{

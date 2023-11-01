@@ -73,6 +73,36 @@ global.item_list =
 		}
 		),
 		
+	key_green :  new create_item(
+		"Green Key", 
+		"Its a key to open a door (Single Use)", 
+		spr_key_green,
+		function()
+		{
+			
+			var _used = false;
+			
+			if instance_exists(oLock_green)
+			{
+				
+			with(oLock_green)
+				{
+				if distance_to_object(obj_player) < 20 
+					{
+					audio_play_sound(snd_click, 5, false)
+					instance_destroy();
+					_used = true;
+					}	
+				}
+			}
+			// get rid of item
+			if _used == true
+			{
+			array_delete(inv, selected_item, 1);
+			}
+		}
+		),
+		
 	fire_ex : new create_item(
 		"Fire Extinguisher",
 		"Use to slow down enemies",
