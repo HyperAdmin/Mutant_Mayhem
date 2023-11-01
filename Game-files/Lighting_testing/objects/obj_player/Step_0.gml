@@ -108,28 +108,24 @@ if can_use
 {
 	if keyboard_check(vk_space) 
 	{
+		audio_play_sound(snd_fireExtinguisher, 3, true)
+		shooting = true
 		if obj_item_fire_ex.duration >= 0 
 		{
 			draw_sprite(spr_fire_ex, 0, x, y)
 			part_particles_create(global.partSystem, x, y, global.ptBasic2, 1);
-			obj_item_fire_ex.duration -= 1;
-		
-			if obj_enemy_parent.x <= x + 40 || obj_enemy_parent.x >= x - 40 || obj_enemy_parent.y >= y + 40 ||  obj_enemy_parent.y >= y - 40
-			{
-				obj_enemy_parent.en_speed *= 0.1;
-				slowed = true
-				alarm[0] = 50
-				if (!slowed)
-				{
-					obj_enemy_parent.en_speed = obj_enemy_parent.default_speed;	
-				}
-			}
+			//obj_item_fire_ex.duration -= 1;
 		}
 		else
 		{
 			can_use = false;
 			
 		}
+	}
+	else
+	{
+		shooting = false	
+		audio_stop_sound(snd_fireExtinguisher)
 	}
 }
 

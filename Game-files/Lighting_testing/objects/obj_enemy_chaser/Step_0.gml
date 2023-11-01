@@ -7,7 +7,6 @@ if !global.paused
 	{
 		path_end()
 		chase = true
-		en_speed = default_speed;
 	}
 	if chase = true
 	{
@@ -22,18 +21,25 @@ if !global.paused
 		}
 		else
 		{
-			visible = true	
-			// movement here
-			mp_potential_step(obj_player.x, obj_player.y, en_speed, false);
-			if obj_player.x < x
+			if distance_to_object(obj_player) < range
 			{
-				image_xscale = -.2
+				image_speed = 5
+				visible = true	
+				// movement here
+				mp_potential_step(obj_player.x, obj_player.y, en_speed, false);
+				if obj_player.x < x
+				{
+					image_xscale = -.2
+				}
+				else
+				{
+					image_xscale = .2	
+				}
 			}
 			else
 			{
-				image_xscale = .2	
+				image_speed = 0	
 			}
 		}
 	}
-	
 }

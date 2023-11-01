@@ -5,7 +5,6 @@ if !global.paused
 	if distance_to_object(obj_player) < range
 	{
 		image_speed = 3
-		en_speed = default_speed
 		chase = true
 		//mp_potential_step(obj_player.x, obj_player.y, en_speed, 1)
 	}

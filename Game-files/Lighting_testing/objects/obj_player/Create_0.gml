@@ -4,4 +4,5 @@ slowed = false
 can_use = false;
 sprinting = false;
 stamina_recharge = false;
+shooting = false
 
